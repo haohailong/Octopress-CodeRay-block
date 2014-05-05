@@ -1,8 +1,8 @@
 # Octopress CodeRay Block
 
-- Author: Hailong Hao (http://shengmingzhiqing.com/) based on the work of Jan Stevens (http://fritz-hut.com), Kat Hagan (http://codebykat.com), and Brandon Mathis. 
+**Author:** Hailong Hao (http://shengmingzhiqing.com/) based on the work of Jan Stevens (http://fritz-hut.com), Kat Hagan (http://codebykat.com), and Brandon Mathis. 
 
-- Description: Modified version of Jan Steven and Kat Hagan's code_block.rb that uses CodeRay for syntax highlighting. The Original Version by K. Hagan has the Github style caption, but cannot add line nubmers, the 2nd Version by J. Steven has line number option, but with a new style which looks conflict to the Octopress classic theme. If you use J. Steven's version with original CSS/SASS, the capiton style cannot be displayed well. This plugin fixed the problem.
+**Description:** Modified version of Jan Steven and Kat Hagan's code_block.rb that uses CodeRay for syntax highlighting. The Original Version by K. Hagan has the Github style caption, but cannot add line nubmers, the 2nd Version by J. Steven has line number option, but with a new style which looks conflict to the Octopress classic theme. If you use J. Steven's version with original CSS/SASS, the capiton style cannot be displayed well. This plugin fixed the problem.
 
 ## Installing the Plugin
 
