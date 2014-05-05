@@ -1,5 +1,7 @@
 # Octopress CodeRay Block
 
+([A Chinese instruction see here | 点此查看中文版安装说明](http://shengmingzhiqing.com/blog/octopress-lean-modification-4.html/#coderay-block-))
+
 **Author:** Hailong Hao (http://shengmingzhiqing.com/) based on the work of Jan Stevens (http://fritz-hut.com), Kat Hagan (http://codebykat.com), and Brandon Mathis. 
 
 **Description:** Modified version of Jan Steven and Kat Hagan's code_block.rb that uses CodeRay for syntax highlighting. The Original Version by K. Hagan has the Github style caption, but cannot add line nubmers, the 2nd Version by J. Steven has line number option, but with a new style which looks conflict to the Octopress classic theme. If you use J. Steven's version with original CSS/SASS, the capiton style cannot be displayed well. This plugin fixed the problem.
@@ -41,11 +43,9 @@ Done.
 
 This plugin is easy to use. The syntax is as followed, by default line numbers are not shown, which defined by the option ```linenos:```.
 
-    {% coderay lang:ruby %}
     { % coderay [lang:lang] [linenos:true|false(default)] [title] [url] [link text] % }
     code snippet
     { % endcoderay % }
-    {% endcoderay %}
     
 As you noticed, it is simliar with the syntax of **codeblock** plugin, but with a more beautiful style (in my opinion ^_^) like:
 
